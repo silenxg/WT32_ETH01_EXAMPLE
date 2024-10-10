@@ -46,7 +46,7 @@ IPAddress subnet(255, 255, 255, 0);
 HTTPClient http;
 String host = "http://<ip address>:<port>/graphql";
 
-
+void readState(int pin, int sensorid);
 //Function to initialize the ethernet connection.
 void ETH_init()
 {
